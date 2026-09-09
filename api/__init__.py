@@ -1,0 +1,1 @@
+"""Serviço WebSocket de rPPG."""

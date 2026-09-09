@@ -1,0 +1,7 @@
+# ATENÇÃO: numpy<2 não tem wheel para Python 3.13 (a mais antiga publicada
+# para 3.13 é a 2.1.0). Em 3.13 este arquivo falha no build com "No matching
+# distribution found". O .python-version na raiz trava em 3.12 por isso.
+fastapi
+uvicorn[standard]
+numpy<2
+scipy
